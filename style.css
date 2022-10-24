@@ -1,4 +1,35 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+}
 
+h1 {
+    color: grey;
+    font-family: verdana;
+}
 
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto; /* This centers the div in the middle of the screen */
+}
+
+/* The CSS below was added to center the labels and controls similar to
+   how they look in the class sample image */
+.input-controls {
+    width: 80%;
+    margin: auto;
+}
+
+.input-controls * {
+    margin-bottom: 12px;
+}
+
+label {
+    width: 120px;
+    float: left;
+}
